@@ -1,10 +1,32 @@
-# Project Title
+# textFiles022
 
-Simple overview of use/purpose.
+This is simple overview of the use/purpose of this application.
+
+It is a simple application to:
+    * write text to a file; and 
+    * read text from a file.
+
+
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The basic functionality of application is as follows:
+    1. The application loads.
+    2. After loading, a menu with three options are displayed:
+            * Write text to file;
+            * Read text from file; and
+            * Exit.
+    3. The user is then prompted to select an option from the menu.
+    4. If user selects to write text to file:
+            * The user is then prompted to enter a title for the intended text string and confirm it;
+            * Now the user is prompted to enter a text string related to the title and confirm it;
+            * The information is written to a file, and the user is prompted to return to the menu;
+    5. If user selects to read text from a file:
+            * The various titles written to file are displayed to the user to select from;
+            * Once the user selects a valid title, the said title and its corresponding text is displayed on screen;
+            * The user is then prompted to return to the menu.
+    6. If user selects to exit:
+            * The application stops and close the console application.
 
 ## Getting Started
 
@@ -35,10 +57,9 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Contributors names and contact info:
+    Schalk van Dyk
+    schalkvandyk1979@gmail.com
 
 ## Version History
 
